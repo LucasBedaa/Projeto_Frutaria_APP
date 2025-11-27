@@ -1,16 +1,16 @@
 package br.com.appfrutaria.model;
 
-public class Fruta extends Produto{
+public class Verdura extends Produto{
 
     private String tipo;
     
-    public Fruta()
+    public Verdura()
     {
     	super();
     	this.tipo = "";
     }
 
-    public Fruta(String nome, double preco, int quantidade, String tipo) {
+    public Verdura(String nome, double preco, int quantidade, String tipo, int total) {
     	super(nome, preco, quantidade, tipo);
     	this.tipo = tipo;
 
